@@ -50,6 +50,7 @@
 	include('include/topbar.php'); 
     include('include/slider.php');
     include('include/menu.php');
+    include('include/footer.php'); 
 	?>
 	<!-- js-files -->
 	<!-- jquery -->
