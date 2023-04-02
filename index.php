@@ -49,7 +49,7 @@
 	<?php
 	include('include/topbar.php'); 
     include('include/slider.php');
-
+    include('include/menu.php');
 	?>
 	<!-- js-files -->
 	<!-- jquery -->
