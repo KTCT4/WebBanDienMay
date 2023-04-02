@@ -48,6 +48,7 @@
 <body>
 	<?php
 	include('include/topbar.php'); 
+    include('include/slider.php');
 
 	?>
 	<!-- js-files -->
