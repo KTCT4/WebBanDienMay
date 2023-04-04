@@ -51,6 +51,14 @@
     include('include/slider.php');
     include('include/menu.php');
     include('include/footer.php'); 
+	if(isset($_GET['quanly'])){
+		$tam = $_GET['quanly'];
+	}else{
+		$tam = '';
+	}
+
+	if($tam=='danhmuc'){
+		include('include/danhmuc.php');
 	?>
 	<!-- js-files -->
 	<!-- jquery -->
