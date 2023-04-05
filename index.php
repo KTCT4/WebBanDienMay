@@ -59,6 +59,8 @@
 
 	if($tam=='danhmuc'){
 		include('include/danhmuc.php');
+	}elseif ($tam=='timkiem') {
+		include('include/timkiem.php');
 	?>
 	<!-- js-files -->
 	<!-- jquery -->
