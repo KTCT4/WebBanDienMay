@@ -48,9 +48,10 @@
 <body>
 	<?php
 	include('include/topbar.php'); 
+	include('include/menu.php');
     include('include/slider.php');
-    include('include/menu.php');
-    include('include/footer.php'); 
+    
+    
 	if(isset($_GET['quanly'])){
 		$tam = $_GET['quanly'];
 	}else{
@@ -61,6 +62,10 @@
 		include('include/danhmuc.php');
 	}elseif ($tam=='timkiem') {
 		include('include/timkiem.php');
+	}else{
+		include('include/home.php'); 
+	}
+	include('include/footer.php'); 
 	?>
 	<!-- js-files -->
 	<!-- jquery -->
@@ -213,5 +218,5 @@
 	<!-- //for bootstrap working -->
 	<!-- //js-files -->
 </body>
-
-</html>
+	
+</html> 
