@@ -64,8 +64,9 @@
 		include('include/timkiem.php');
 	}elseif($tam=='chitietsp'){
 		include('include/chitietsp.php');
-	}else	
-		include('include/home.php');
+	}else{
+		include('include/home.php'); 
+	}
 	include('include/footer.php'); 
 	?>
 	<!-- js-files -->
