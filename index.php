@@ -62,9 +62,10 @@
 		include('include/danhmuc.php');
 	}elseif ($tam=='timkiem') {
 		include('include/timkiem.php');
-	}else{
-		include('include/home.php'); 
-	}
+	}elseif($tam=='chitietsp'){
+		include('include/chitietsp.php');
+	}else	
+		include('include/home.php');
 	include('include/footer.php'); 
 	?>
 	<!-- js-files -->
