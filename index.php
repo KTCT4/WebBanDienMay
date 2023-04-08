@@ -64,6 +64,10 @@
 		include('include/timkiem.php');
 	}elseif($tam=='chitietsp'){
 		include('include/chitietsp.php');
+	}elseif($tam=='giohang') {
+		include('include/giohang.php');	
+	}elseif ($tam=='xemdonhang') {
+		include('include/xemdonhang.php');
 	}else{
 		include('include/home.php'); 
 	}
